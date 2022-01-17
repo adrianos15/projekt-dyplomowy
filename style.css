@@ -1,0 +1,927 @@
+body{
+	background-color: white;
+	color: black;
+	transition-timing-function: ease-out;
+	transition-duration: 300ms;
+	font-family: 'Righteous', cursive;
+	margin: 0;
+}
+
+html{
+	overflow-x: hidden;
+}
+
+.outer{
+	width: 100%;
+}
+
+.m{
+	background-color: white;
+	position: fixed;
+	z-index: 1;
+	border-bottom: 2px solid black;
+	transition-timing-function: ease-out;
+	transition-duration: 300ms;
+}
+
+#menu{
+	width: 1200px;
+	margin: 0 auto;
+	background-color: white;
+	transition-timing-function: ease-out;
+	transition-duration: 300ms;
+}
+
+.linki{
+	float: right;
+}
+
+#menu_onas{
+	padding: 25px 30px;
+	height: 120px;
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 28px;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	transition-timing-function: ease-out;
+	transition-duration: 300ms;
+}
+
+#menu_oferta{
+	padding: 25px 30px;
+	height: 120px;
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 28px;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	transition-timing-function: ease-out;
+	transition-duration: 300ms;
+}
+
+#menu_kontakt{
+	padding: 25px 0px 25px 30px;
+	height: 120px;
+	float: right;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 28px;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	transition-timing-function: ease-out;
+	transition-duration: 300ms;
+}
+
+#div_logo{
+	width: 120px;
+	height: 120px;
+	margin: 25px 80px 25px 0px;
+	float: left;
+	transition-timing-function: ease-out;
+	transition-duration: 300ms;
+}
+
+#logo{
+	width: 120px;
+	height: 120px;
+	transition-timing-function: ease-out;
+	transition-duration: 300ms;
+}
+
+#logo img{
+	width: 120px;
+	height: 120px;
+	float: left;
+	transition-timing-function: ease-out;
+	transition-duration: 300ms;
+}
+
+#div_przycisk_motyw{
+	width: 30px;
+	height: 30px;
+	margin: 70px 0;
+	float: left;
+	cursor: pointer;
+	transition-timing-function: ease-out;
+	transition-duration: 300ms;
+}
+
+#przycisk_motyw{
+	background-image: url('color_button1.png');
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+	transition-timing-function: ease-out;
+	transition-duration: 300ms;
+}
+
+#onas_tekst{
+	opacity: 0;
+}
+
+#kontakt_tekst{
+	opacity: 0;
+}
+
+#kontakt_tekst2{
+	opacity: 0;
+}
+
+#formularz{
+	opacity: 0;
+}
+
+#baner{
+	width: 100%;
+}
+
+.banner{
+	padding-top: 172px;
+}
+
+#onas{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 80px;
+	text-align: justify;
+	font-size: 22px;
+	line-height: 1.5em;
+}
+
+.naglowek{
+	text-align: center;
+	font-size: 38px;
+	font-weight: bold;
+	margin-bottom: 150px;
+	opacity: 0;
+}
+
+#statystyki{
+	width: 100%;
+	margin: 100px 0px 420px 0px;
+	opacity: 0;
+}
+
+#statystyka1{
+	float: left;
+	width: 154px;
+	height: 304px;
+	margin-left: 73px;
+	margin-right: 71px;
+}
+
+#statystyka1a{
+	width: 150px;
+	height: 150px;
+	font-size: 46px;
+	border: 2px solid black;
+	border-radius: 100%;
+	margin-bottom: 20px;
+}
+
+#statystyka1b{
+	width: 154px;
+	height: 130px;
+	font-size: 18px;
+	text-align: center;
+}
+
+#statystyka2{
+	float: left;
+	width: 154px;
+	height: 304px;
+	margin-right: 71px;
+}
+
+#statystyka2a{
+	width: 150px;
+	height: 150px;
+	font-size: 46px;
+	border: 2px solid black;
+	border-radius: 100%;
+	margin-bottom: 20px;
+}
+
+#statystyka2b{
+	width: 154px;
+	height: 130px;
+	font-size: 18px;
+	text-align: center;
+}
+
+#statystyka3{
+	float: left;
+	width: 154px;
+	height: 304px;
+	margin-right: 71px;
+}
+
+#statystyka3a{
+	width: 150px;
+	height: 150px;
+	font-size: 46px;
+	border: 2px solid black;
+	border-radius: 100%;
+	margin-bottom: 20px;
+}
+
+#statystyka3b{
+	width: 154px;
+	height: 130px;
+	font-size: 18px;
+	text-align: center;
+}
+
+#statystyka4{
+	float: left;
+	width: 154px;
+	height: 304px;
+	margin-right: 71px;
+}
+
+#statystyka4a{
+	width: 150px;
+	height: 150px;
+	font-size: 46px;
+	border: 2px solid black;
+	border-radius: 100%;
+	margin-bottom: 20px;
+}
+
+#statystyka4b{
+	width: 154px;
+	height: 130px;
+	font-size: 18px;
+	text-align: center;
+}
+
+#statystyka5{
+	float: left;
+	width: 154px;
+	height: 304px;
+	margin-right: 73px;
+}
+
+#statystyka5a{
+	width: 150px;
+	height: 150px;
+	font-size: 46px;
+	border: 2px solid black;
+	border-radius: 100%;
+	margin-bottom: 20px;
+}
+
+#statystyka5b{
+	width: 154px;
+	height: 130px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.alignment{
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+#oferta{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 80px;
+	font-size: 22px;
+	line-height: 1.5em;
+}
+
+#p-oferta{
+	opacity: 0;
+}
+
+#p-kontakt{
+	opacity: 0;
+}
+
+.oferta_lewo{
+	height: 200px;
+	margin-bottom: 200px;
+}
+
+.oferta_lewo2{
+	height: 200px;
+}
+
+.oferta_prawo{
+	height: 200px;
+	margin-bottom: 200px;
+}
+
+#a1{
+	left: 100%;
+	opacity: 0;
+}
+
+#a2{
+	right: 100%;
+	opacity: 0;
+}
+
+#a3{
+	left: 100%;
+	opacity: 0;
+}
+
+#a4{
+	right: 100%;
+	opacity: 0;
+}
+
+#a5{
+	left: 100%;
+	opacity: 0;
+}
+
+.zdjecie_lewo{
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+.zdjecie_lewo2{
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+.zdjecie_prawo{
+	width: 200px;
+	height: 200px;
+	float: right;
+}
+
+.zdjecie1{
+	width: 200px;
+	height: 200px;
+	background-image: url('ikona1.png');
+	background-position: center;
+	background-size: cover;
+}
+
+.zdjecie2{
+	width: 200px;
+	height: 200px;
+	background-image: url('ikona2.png');
+	background-position: center;
+	background-size: cover;
+}
+
+.zdjecie3{
+	width: 200px;
+	height: 200px;
+	background-image: url('ikona3.png');
+	background-position: center;
+	background-size: cover;
+}
+
+.zdjecie4{
+	width: 200px;
+	height: 200px;
+	background-image: url('ikona4.png');
+	background-position: center;
+	background-size: cover;
+}
+.zdjecie5{
+	width: 200px;
+	height: 200px;
+	background-image: url('ikona5.png');
+	background-position: center;
+	background-size: cover;
+}
+
+.oferta_tekst1{
+	width: 70%;
+	height: 200px;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	text-align: center;
+	float: right;
+}
+
+.oferta_tekst2{
+	width: 70%;
+	height: 200px;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	text-align: center;
+	float: left;
+}
+
+a{
+	transition-property: color;
+	transition-duration: .5s;
+}
+
+a:link, a:visited{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	color: red;
+}
+
+#kontakt{
+	width: 1200px;
+	margin: 0 auto;
+	height: auto;
+	padding: 80px;
+	font-size: 22px;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+#mapa{
+	margin: 0 auto 100px auto;
+	width: 800px;
+	height: 500px;
+	opacity: 0;
+}
+
+#formularz{
+	width: 620px;
+	height: 270px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wiersz{
+	display: inline;
+}
+
+.lewo{
+	display: block;
+	width: 200px;
+	height: 30px;
+	float: left;
+	text-align: right;
+	margin-bottom: 10px;
+}
+
+.lewo_poletekstowe{
+	display: block;
+	width: 200px;
+	height: 100px;
+	float: left;
+	text-align: right;
+	margin-left: auto;
+	margin-bottom: 10px;
+}
+
+.prawo{
+	display: block;
+	width: 400px;
+	height: 30px;
+	float: right;
+	margin-bottom: 10px;
+}
+
+.prawo_poletekstowe{
+	display: block;
+	width: 400px;
+	height: 100px;
+	float: right;
+	margin-bottom: 10px;
+}
+
+.pole{
+	width: 100%;
+	height: 25px;
+	font-family: 'Righteous', cursive;
+}
+
+.pole_tekstowe{
+	width: 100%;
+	height: 100px;
+	font-family: 'Righteous', cursive;
+}
+
+textarea{
+	margin-top: 5px;
+	resize: none;
+}
+
+#imie{
+	transition-timing-function: ease-out;
+	transition-duration: 300ms;
+}
+
+#nazwisko{
+	transition-timing-function: ease-out;
+	transition-duration: 300ms;
+}
+
+#email{
+	transition-timing-function: ease-out;
+	transition-duration: 300ms;
+}
+
+#wiadomosc{
+	transition-timing-function: ease-out;
+	transition-duration: 300ms;
+}
+
+#btn{
+	float: left;
+	width: 150px;
+	height: 40px;
+	background-color: white;
+	color: black;
+	font-family: 'Righteous', cursive;
+	border: 3px solid black;
+	transition-duration: 300ms;
+}
+
+#btn:hover{
+	background-color: black;
+	color: white;
+	border-color: white;
+}
+
+#koperta{
+	position: absolute;
+	float: left;
+	z-index: -1;
+	width: 150px;
+	height: 40px;
+}
+
+#przycisk{
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 220px;
+	float: left;
+	width: 150px;
+	height: 40px;
+}
+
+#message{
+	float: left;
+	width: 180px;
+	height: 40px;
+	margin-top: 20px;
+	font-size: 18px;
+	color: #00FF00;
+	opacity: 0;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#stopka{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0px 80px;
+	font-size: 22px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	opacity: 0;
+}
+
+#kwadrat{
+	width: 40px;
+	height: 40px;
+	color: white;
+	font-size: 32px;
+	text-align: center;
+	transform: rotate(90deg);
+	background-color: black;
+	position: fixed;
+	right: -5%;
+	bottom: 5%;
+	cursor: pointer;
+	transition-timing-function: ease-out;
+	transition-duration: 300ms;
+}
+
+#okno{
+	width: 350px;
+	height: 310px;
+	background-color: orange;
+	color: black;
+	position: fixed;
+	z-index: 1;
+	padding: 0 0 10px 0;
+	left: -350px;
+	bottom: 50px;
+	text-align: center;
+	transition-timing-function: ease-out;
+}
+
+#x{
+	background-image: url('przycisk_x.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+}
+
+#info{
+	font-size: 20px;
+	padding: 10px 30px 0px 30px;
+}
+
+#info_tekst{
+	margin-bottom: 40px;
+	padding: 0 30px;
+}
+
+#info_przycisk1{
+	margin-bottom: 10px;
+	cursor: pointer;
+	transition-duration: 300ms;
+}
+
+#info_przycisk2{
+	cursor: pointer;
+	transition-duration: 300ms;
+}
+
+.info_przycisk{
+	width: 75%;
+	height: 50px;
+	background-color: black;
+	color: orange;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+@keyframes animacja1{
+        0% {left: 100%;}
+        95% {left: -3%;}
+        100% {left: 0;}
+}
+
+@-webkit-keyframes animacja1{
+        0% {left: 100%;}
+        95% {left: -3%;}
+        100% {left: 0;}
+}
+
+@keyframes animacja2{
+        0% {right: 100%;}
+        95% {right: -3%;}
+        100% {right: 0;}
+}
+
+@-webkit-keyframes animacja2{
+        0% {right: 100%;}
+        95% {right: -3%;}
+        100% {right: 0;}
+}
+
+@keyframes cookies1{
+        0% {left: -350px;}
+        100% {left: 50px;}
+}
+
+@-webkit-keyframes cookies1{
+        0% {left: -350px;}
+        100% {left: 50px;}
+}
+
+@keyframes cookies2{
+        0% {left: 50px;}
+        100% {left: -350px;}
+}
+
+@-webkit-keyframes cookies2{
+        0% {left: 50px;}
+        100% {left: -350px;}
+}
+
+@media screen and (max-width: 1080px){
+	#div_logo{
+		width: 100%;
+		margin: 25px 0px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#logo{
+		width: 120px;
+		height: 120px;
+		vertical-align: middle;
+	}
+	
+	#div_przycisk_motyw{
+		width: 100%;
+		height: 50px;
+		margin: 20px 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#przycisk_motyw{
+		width: 50px;
+		height: 50px;
+		vertical-align: middle;
+	}
+
+	.linki{
+		width: 100%;
+	}
+
+	#menu{
+		width: 1140px;
+	}
+
+	#menu_kontakt{
+		display: block;
+		width: 100%;
+		font-size: 56px;
+		height: auto;
+		padding: 25px 0px;
+		float: none;
+		border-top: 1px solid black;
+	}
+
+	#menu_oferta{
+		display: block;
+		width: 100%;
+		font-size: 56px;
+		height: auto;
+		padding: 25px 0px;
+		float: none;
+		border-top: 1px solid black;
+	}
+
+	#menu_onas{
+		display: block;
+		width: 100%;
+		font-size: 56px;
+		height: auto;
+		padding: 25px 0px;
+		float: none;
+		border-top: 1px solid black;
+	}
+
+	a:hover{
+		color: #00B7EB;
+	}
+
+	.banner{
+		width: 1140px;
+		padding-top: 622px;
+	}
+
+	#onas{
+		width: 100%;
+		padding: 80px;
+	}
+
+	#statystyki{
+		margin: 100px 0px 620px 0px;
+	}
+	
+	#oferta{
+		width: 100%;
+		font-size: 44px;
+	}
+
+	.oferta_lewo{
+		height: 900px;
+		margin-bottom: 150px;
+	}
+		
+	.oferta_lewo2{
+		height: 900px;
+	}
+
+	.oferta_prawo{
+		height: 900px;
+		margin-bottom: 150px;
+	}
+
+	.zdjecie_lewo{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.zdjecie_lewo2{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.zdjecie_prawo{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.oferta_tekst1{
+		width: 100%;
+		height: auto;
+		display: block;
+		margin-top: 50px;
+	}
+
+	.oferta_tekst2{
+		width: 100%;
+		height: auto;
+		display: block;
+		margin-top: 50px;
+	}
+
+	#kwadrat{
+		width: 80px;
+		height: 80px;
+		font-size: 64px;
+		right: -12%;
+	}
+
+	#kontakt{
+		width: 100%;
+	}
+
+	#formularz{
+		width: 100%;
+	}
+
+	.lewo{
+		width: 100%;
+		text-align: left;
+		font-size: 38px;
+	}
+
+	.lewo_poletekstowe{
+		width: 100%;
+		height: 30px;
+		text-align: left;
+		font-size: 38px;
+	}
+
+	.prawo{
+		width: 100%;
+		margin-bottom: 70px;
+	}
+
+	.prawo_poletekstowe{
+		width: 100%;
+		height: 240px;
+	}
+
+	.pole_tekstowe{
+		font-family: 'Righteous', cursive;
+		font-size: 38px;
+		height: 240px;
+	}
+
+	.pole{
+		font-family: 'Righteous', cursive;
+		font-size: 38px;
+		height: 60px;
+	}
+
+	#przycisk{
+		width: 100%;
+		position: static;
+		margin-top: 20px;
+		margin-left: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 40px;
+	}
+
+	#btn{
+		width: 50%;
+		height: 80px;
+		font-size: 26px;
+	}
+
+	#stopka{
+		width: 1080px;
+		margin-top: 600px;
+		padding: 30px 0;
+		opacity: 1;
+	}
+}
